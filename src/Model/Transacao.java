@@ -1,8 +1,12 @@
+package Model;
+import Enum.*;
+
+
 public class Transacao {
 
-    private TipoTransacao tipo;
+    private final TipoTransacao tipo;
 
-    private double valor;
+    private final double valor;
 
    
 

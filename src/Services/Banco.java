@@ -1,10 +1,12 @@
+package Services;
+
 import java.util.ArrayList;
 import java.util.List;
 import Model.*;
 import Interface.*;
 
 public class Banco implements BancoOperacoes {
-    private List<Conta> contas;
+    private final List<Conta> contas;
 
     public Banco() {            
         this.contas = new ArrayList<>();

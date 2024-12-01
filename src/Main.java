@@ -15,7 +15,7 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
 
 
-        System.out.println("Bem-vindo ao Banco Interativo!");
+        System.out.println("Bem-vindo ao Services.Banco Interativo!");
 
 
         while (true) {
@@ -39,7 +39,7 @@ public class Main {
 
             int opcao = scanner.nextInt();
 
-            scanner.nextLine(); // Limpar buffer
+            scanner.nextLine();
 
 
             switch (opcao) {
@@ -211,7 +211,7 @@ public class Main {
 
                 case 7:
 
-                    System.out.println("Obrigado por usar o Banco Interativo. Até logo!");
+                    System.out.println("Obrigado. Até logo!");
 
                     scanner.close();
 
